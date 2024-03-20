@@ -1,0 +1,218 @@
+nav{
+    float: left;
+    width: 310px;
+   
+    height: auto;
+    
+}
+nav a {
+    color:rgb(102, 39, 160); /* Set the text color */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none; 
+  }
+  #zz{
+    font-weight: bolder;
+  }
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: bisque;
+    height: 1150px;
+  }
+nav ul li{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid white;
+    text-align: center;
+    
+}
+nav a:hover{
+    color: blue;
+  }
+header{
+    background-image: url(../images/fastfood.jpg);
+    /* Source: https://www.womenfitness.net/wp/wp-content/uploads/2016/10/fast-food.jpg */
+    position: relative;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    border-color: black;    
+}
+header h1{
+    text-align: center;
+    color: yellow;
+    font-size: 46px;
+    text-shadow: 1px 2px 2px rgb(68, 128, 0,1),
+    5px 6px 15px rgb(202, 243, 57),
+    -2px -3px 6px rgb(149, 227, 53); 
+}
+header p{
+    text-align: center;
+    color: yellow;
+    font-size: 46px;
+    text-shadow: 1px 2px 2px rgb(68, 128, 0,1),
+    5px 6px 15px rgb(202, 243, 57),
+    -2px -3px 6px rgb(149, 227, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+body{
+    background-color: lightyellow;
+}
+main{
+    overflow: auto;
+   
+    border-left: 5px solid rgb(158, 194, 143);
+}
+.uu{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.op{
+    float: right;
+    height: 200px;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 25px 0px 25px 0px;
+    background-color: burlywood;
+    background: linear-gradient(70deg, rgba(255, 213, 178, 1) 0%, rgb(246, 242, 8,1)100%);
+    padding: 10px;
+}
+p{
+    margin-bottom: 10px;
+}
+#s1{
+    float: left;
+    width: 450px;
+    margin-left: 50px;
+    
+    
+}
+
+#s1 img {
+    height: 150px;
+}
+
+#s1 p {
+    padding: 5px;
+}
+
+#s3{
+    overflow:auto;
+    
+}
+
+#s3 img {
+    height: 150px;
+}
+
+#s3 p {
+    padding: 5px;
+}
+
+#s2{
+    float:left;
+	width: 450px;
+   
+}
+
+#s2 img {
+    height: 150px;
+}
+
+#s2 p {
+    padding: 5px;
+}
+
+#s4{
+    float: left;
+    margin-left: 50px;
+    border-color: darkgray;
+}
+
+#s4 img {
+    height: 150px;
+}
+
+#s5{
+    float: right;
+    margin-right: 50px;
+}
+
+#s5 img {
+    height: 150px;
+}
+
+.gg{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h3 a:hover{
+    color: red;
+}
+.i33 {
+    float: left; /* Float to the left */
+    padding: 10px; /* Add padding as needed */
+    /* Add other styles previously applied to "footer > div" */
+    
+    width: 20%;
+  }
+
+.i33 ul {
+    padding: 0px 0px 30px 0px;
+}
+
+  footer{
+    font-size:medium;
+    font-family: "Century Gothic", serif;
+    background-color: burlywood; /* Set the background color */
+    color: black; /* Set the text color */
+    padding: 10px 10% 10px 10%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  footer ul{
+    list-style: none;
+    padding-bottom: 30px;
+  }
+
+  .i33 nav {
+    width: auto;
+    float: none;
+  }
+
+  .i33 nav ul {
+    background-color: burlywood;
+    height: auto;
+}
+
+.i33 nav ul li {
+    border: 0px;
+    padding: 0px;
+}
+
+  .i33 nav a {
+    color: black;
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+  #copyright{
+    clear: both;
+    text-align: center;
+  }
