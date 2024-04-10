@@ -1,12 +1,14 @@
 /* Desktop View ****************************************************************** */
 @media only screen {
 
+
+
     /* Wireframe 1 ****************************************************** */
-    #outerwrapper {
+    .wireframe1 #outerwrapper {
         background-color: rgb(255, 255, 255);
     }
 
-    nav {
+    .wireframe1 nav {
         background-color: bisque;
         font-family: 'Century Gothic', 'serif';
         color: rgb(35, 102, 12);
@@ -14,20 +16,20 @@
         float: none;
     }
 
-    nav ul {
+    .wireframe1 nav ul {
         margin: 0px;
     }
 
-    nav ul li {
+    .wireframe1 nav ul li {
         display: inline-block;
     }
 
-    .currentwebpage {
+    .wireframe1 .currentwebpage {
         font-weight: bolder;
         color: #00376b;
     }
 
-    nav a {
+    .wireframe1 nav a {
         text-transform: uppercase;
         letter-spacing: 1px;
         text-decoration: none;
@@ -36,11 +38,11 @@
         color: #00376b;
     }
 
-    nav a:hover {
+    .wireframe1 nav a:hover {
         text-shadow: 0px 0px 1px #0084ff;
     }
 
-    header {
+    .wireframe1 header {
         background-color: bisque;
         color: #00376b;
         /* background-image: url("../images/fastfood.jpg"); */
@@ -53,7 +55,7 @@
         position: relative;
     }
 
-    header::before {
+    .wireframe1 header::before {
         background-image: url("../images/fastfood.jpg");
         /* Source: https://www.womenfitness.net/wp/wp-content/uploads/2016/10/fast-food.jpg */
         background-size: cover;
@@ -67,7 +69,7 @@
         background-position: 50% 45%;
     }
 
-    header h1 {
+    .wireframe1 header h1 {
         font-size: 5.2em;
         margin-top: 0px;
         text-shadow: 4px 2px 2px rgba(2, 0, 53, 1),
@@ -77,19 +79,19 @@
         isolation: isolate;
     }
 
-    header h1 a {
+    .wireframe1 header h1 a {
         text-decoration: none;
         color: #0084ff;
     }
 
-    header h1 a:hover {
+    .wireframe1 header h1 a:hover {
         color: #00a2ff;
         text-shadow: 1px 2px 2px rgba(4, 0, 128, 1),
             12px 9px 15px rgba(26, 13, 14, 1),
             -3px -6px 12px rgba(60, 125, 121, 1);
     }
 
-    header p {
+    .wireframe1 header p {
         font-family: 'Century Gothic', 'serif';
         font-size: 2em;
         letter-spacing: 0.5em;
@@ -106,12 +108,12 @@
         isolation: isolate;
     }
 
-    header p a {
+    .wireframe1 header p a {
         text-decoration: none;
         color: #00376b;
     }
 
-    header p a:hover {
+    .wireframe1 header p a:hover {
         color: #0059ff;
         text-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
             0px 0px 10px rgba(255, 255, 255, 1),
@@ -123,11 +125,11 @@
             0px 0px 75px rgba(24, 240, 255, 1);
     }
 
-    main {
+    .wireframe1 main {
         background-color: rgb(255, 255, 255);
     }
 
-    h2 {
+    .wireframe1 h2 {
         font-family: Arial, Helvetica, sans-serif;
         background-color: rgb(189, 222, 242);
         background: linear-gradient(90deg, rgba(189, 222, 242, 1) 0%, rgba(255, 255, 255, 1) 100%);
@@ -135,31 +137,31 @@
         padding: 10px 10px 10px 25px;
     }
 
-    #headingmain {
+    .wireframe1 #headingmain {
         margin-top: 50px;
     }
 
-    .mainimg {
+    .wireframe1 .mainimg {
         height: 200px;
         float: right;
         margin: 0px 50px 0px 20px;
     }
 
-    .maindescription {
+    .wireframe1 .maindescription {
         padding: 20px 20px 20px 50px;
     }
 
-    #headingcolmiddle {
+    .wireframe1 #headingcolmiddle {
         clear: both;
         margin-top: 170px;
     }
 
-    #multicolmiddle {
+    .wireframe1 #multicolmiddle {
         background-color: rgb(255, 222, 156);
         overflow: auto;
     }
 
-    .columnmiddle {
+    .wireframe1 .columnmiddle {
         background-color: rgb(255, 222, 156);
         width: 26%;
         float: left;
@@ -167,27 +169,27 @@
         margin: 20px 30px 20px 30px;
     }
 
-    .columnmiddle img {
+    .wireframe1 .columnmiddle img {
         height: 150px;
     }
 
-    .menuitemtitle {
+    .wireframe1 .menuitemtitle {
         font-style: italic;
         font-family: 'Times New Roman', Times, serif;
         font-size: 1.5rem;
     }
 
-    #headingcolbottom {
+    .wireframe1 #headingcolbottom {
         clear: both;
         margin-top: 150px;
     }
 
-    #multicolbottom {
+    .wireframe1 #multicolbottom {
         background-color: beige;
         overflow: auto;
     }
 
-    .columnbottom {
+    .wireframe1 .columnbottom {
         background-color: beige;
         width: 47%;
         float: left;
@@ -195,21 +197,21 @@
         padding: 10px 10px 10px 30px;
     }
 
-    .columnbottom img {
+    .wireframe1 .columnbottom img {
         height: 150px;
     }
 
-    .columnbottom a {
+    .wireframe1 .columnbottom a {
         text-decoration: none;
         color: #0084ff;
     }
 
-    .columnbottom a:hover {
+    .wireframe1 .columnbottom a:hover {
         color: #00376b;
         text-shadow: 0px 0px 1px #0084ff;
     }
 
-    footer {
+    .wireframe1 footer {
         clear: both;
         background-color: burlywood;
         font-size: smaller;
@@ -220,43 +222,299 @@
         text-align: center;
     }
 
-    footer ul {
+    .wireframe1 footer ul {
         list-style: none;
         padding-bottom: 30px;
     }
 
-    footer nav ul {
+    .wireframe1 footer nav ul {
         background-color: burlywood;
     }
 
-    footer nav ul li {
+    .wireframe1 footer nav ul li {
         display: block;
     }
 
-    footer nav a {
+    .wireframe1 footer nav a {
         color: black;
         display: block;
         padding: 0;
         text-align: center;
     }
 
-    .footercolumn {
+    .wireframe1 .footercolumn {
         float: left;
         /* display: inline-block; */
         width: 20%;
         padding: 20px;
     }
 
-    .footercolumn ul {
+    .wireframe1 .footercolumn ul {
         padding: 0px 0px 30px 0px;
     }
 
-    #copyright {
+    .wireframe1 #copyright {
         clear: both;
         text-align: center;
     }
+
+    /* Wireframe 1 END ******************************************************************** */
+
+
+
+    /* Wireframe 2 ************************************************************************ */
+    .wireframe2 nav {
+        float: left;
+        width: 310px;
+
+        height: auto;
+
+    }
+
+    .wireframe2 nav a {
+        color: rgb(102, 39, 160);
+        /* Set the text color */
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+
+    .wireframe2 #zz {
+        font-weight: bolder;
+    }
+
+    .wireframe2 nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: bisque;
+        height: 1150px;
+    }
+
+    .wireframe2 nav ul li {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-bottom: 3px solid white;
+        text-align: center;
+
+    }
+
+    .wireframe2 nav a:hover {
+        color: blue;
+    }
+
+    .wireframe2 header {
+        background-image: url(../images/fastfood.jpg);
+        /* Source: https://www.womenfitness.net/wp/wp-content/uploads/2016/10/fast-food.jpg */
+        position: relative;
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        text-align: center;
+        border-color: black;
+    }
+
+    .wireframe2 header h1 {
+        text-align: center;
+        color: yellow;
+        font-size: 46px;
+        text-shadow: 1px 2px 2px rgb(68, 128, 0, 1),
+            5px 6px 15px rgb(202, 243, 57),
+            -2px -3px 6px rgb(149, 227, 53);
+    }
+
+    .wireframe2 header p {
+        text-align: center;
+        color: yellow;
+        font-size: 46px;
+        text-shadow: 1px 2px 2px rgb(68, 128, 0, 1),
+            5px 6px 15px rgb(202, 243, 57),
+            -2px -3px 6px rgb(149, 227, 53);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+
+    .wireframe2 body {
+        background-color: lightyellow;
+    }
+
+    .wireframe2 main {
+        overflow: auto;
+
+        border-left: 5px solid rgb(158, 194, 143);
+    }
+
+    .wireframe2 .uu {
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .wireframe2 .wrapper {
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+
+    .wireframe2 .op {
+        float: right;
+        height: 200px;
+    }
+
+    .wireframe2 h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        border-radius: 25px 0px 25px 0px;
+        background-color: burlywood;
+        background: linear-gradient(70deg, rgba(255, 213, 178, 1) 0%, rgb(246, 242, 8, 1)100%);
+        padding: 10px;
+    }
+
+    .wireframe2 p {
+        margin-bottom: 10px;
+    }
+
+    .wireframe2 #s1 {
+        float: left;
+        width: 450px;
+        margin-left: 50px;
+
+
+    }
+
+    .wireframe2 #s1 img {
+        height: 150px;
+    }
+
+    .wireframe2 #s1 p {
+        padding: 5px;
+    }
+
+    .wireframe2 #s3 {
+        overflow: auto;
+
+    }
+
+    .wireframe2 #s3 img {
+        height: 150px;
+    }
+
+    .wireframe2 #s3 p {
+        padding: 5px;
+    }
+
+    .wireframe2 #s2 {
+        float: left;
+        width: 450px;
+
+    }
+
+    .wireframe2 #s2 img {
+        height: 150px;
+    }
+
+    .wireframe2 #s2 p {
+        padding: 5px;
+    }
+
+    .wireframe2 #s4 {
+        float: left;
+        margin-left: 50px;
+        border-color: darkgray;
+    }
+
+    .wireframe2 #s4 img {
+        height: 150px;
+    }
+
+    .wireframe2 #s5 {
+        float: right;
+        margin-right: 50px;
+    }
+
+    .wireframe2 #s5 img {
+        height: 150px;
+    }
+
+    .wireframe2 .gg {
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .wireframe2 h3 a:hover {
+        color: red;
+    }
+
+    .wireframe2 .i33 {
+        float: left;
+        /* Float to the left */
+        padding: 10px;
+        /* Add padding as needed */
+        /* Add other styles previously applied to "footer > div" */
+
+        width: 20%;
+    }
+
+    .wireframe2 .i33 ul {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .wireframe2 footer {
+        font-size: medium;
+        font-family: "Century Gothic", serif;
+        background-color: burlywood;
+        /* Set the background color */
+        color: black;
+        /* Set the text color */
+        padding: 10px 10% 10px 10%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .wireframe2 footer ul {
+        list-style: none;
+        padding-bottom: 30px;
+    }
+
+    .wireframe2 .i33 nav {
+        width: auto;
+        float: none;
+    }
+
+    .wireframe2 .i33 nav ul {
+        background-color: burlywood;
+        height: auto;
+    }
+
+    .wireframe2 .i33 nav ul li {
+        border: 0px;
+        padding: 0px;
+    }
+
+    .wireframe2 .i33 nav a {
+        color: black;
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .wireframe2 #copyright {
+        clear: both;
+        text-align: center;
+    }
+
+    /* Wireframe 2 END ******************************************************************* */
+
 }
+
+/* Desktop View END ************************************************************************ */
+
 
 
 /* Mobile View at 768px ******************************************************************** */
 @media only screen and (max-width:768px) {}
+
+/* Mobile View at 768px END **************************************************************** */
