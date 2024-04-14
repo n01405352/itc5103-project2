@@ -1,0 +1,182 @@
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 600px;
+    height: 400px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+
+.jcarousel-wrapper .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+}
+
+.jcarousel img {
+    display: block;
+}
+
+.jcarousel ul {
+    width: 100%;
+    height: 10000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-control-prev {
+    left: -50px;
+}
+
+.jcarousel-control-next {
+    right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    
+    margin-right: 2px;
+    
+    opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.i33 {
+    float: left; /* Float to the left */
+    padding: 10px; /* Add padding as needed */
+    /* Add other styles previously applied to "footer > div" */
+    
+    width: 20%;
+  }
+
+.i33 ul {
+    padding: 0px 0px 30px 0px;
+}
+
+  footer{
+    font-size:medium;
+    font-family: "Century Gothic", serif;
+    background-color: burlywood; /* Set the background color */
+    color: black; /* Set the text color */
+    padding: 10px 10% 10px 10%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  footer ul{
+    list-style: none;
+    padding-bottom: 30px;
+  }
+
+  .i33 nav {
+    width: auto;
+    float: none;
+  }
+
+  .i33 nav ul {
+    background-color: burlywood;
+    height: auto;
+}
+
+.i33 nav ul li {
+    border: 0px;
+    padding: 0px;
+}
+
+  .i33 nav a {
+    color: black;
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+  #copyright{
+    clear: both;
+    text-align: center;
+  }
