@@ -1298,7 +1298,8 @@
 
     #menu ul li a {
         display: inline-block;
-        color: white;
+        /* color: white; */
+        color: #00376b;
         padding: 14px 20px;
         text-decoration: none;
     }
@@ -1330,7 +1331,8 @@
 
     #menu ul li a {
         display: block;
-        color: white;
+        /* color: white; */
+        color: #00376b;
         padding: 14px 20px;
         text-decoration: none;
     }
