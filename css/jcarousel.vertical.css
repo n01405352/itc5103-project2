@@ -187,7 +187,7 @@
         justify-content: space-around;
         align-items: center;
         height: 50px;
-        background-color: #cd2028;
+        background-color:blanchedalmond;
     }
   
     #combos ul li {
@@ -218,7 +218,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color:blanchedalmond;
   }
   
   #combos ul li {

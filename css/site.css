@@ -684,7 +684,7 @@
     /* Order START *********************************************************************** */
 
 
-    body.order {
+     #order {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -695,7 +695,7 @@
         background-repeat: no-repeat;
     }
 
-    .order .container {
+    .wireframe1 .container {
         background-image: url(../images/burger.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -719,7 +719,7 @@
         font-weight: 600;
     }
 
-    .order form {
+    #order form {
         display: flex;
         flex-direction: column;
         max-width: 300px;
@@ -733,7 +733,7 @@
 
     .order input,
     .order select,
-    .order button {
+    #order button {
         padding: 5px;
         margin-bottom: 10px;
         border-radius: 5px;
@@ -742,7 +742,7 @@
         box-sizing: border-box;
     }
 
-    .order button {
+    #order button {
         padding: 10px;
         background-color: #007bff;
         color: #fff;
@@ -752,7 +752,7 @@
         font-weight: bold;
     }
 
-    .order button:hover {
+    #order button:hover {
         background-color: #0056b3;
     }
 
@@ -1274,7 +1274,7 @@
         justify-content: space-around;
         align-items: center;
         height: 50px;
-        background-color: #cd2028;
+        background-color: bisque;
     }
 
     #menu ul li {
@@ -1290,7 +1290,7 @@
     }
 
     #menu ul li a:hover {
-        background-color: brown;
+        background-color: beige;
         color: black;
     }
 }
@@ -1306,7 +1306,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        background-color: #333;
+        background-color: bisque;
     }
 
     #menu ul li {
