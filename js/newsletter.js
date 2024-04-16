@@ -19,7 +19,6 @@ const processEntries = () => {
     const email = $("#email").value.trim();
     const phoneNumber = $("#phoneNumber").value.trim();
 
-
     // Validate user entries
     // Verify values are not empty
     let errorMessage = "";
