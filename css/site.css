@@ -16,6 +16,14 @@
         float: none;
     }
 
+    /* Nav flex */
+    .wireframe1 .navwrapper {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .wireframe1 nav ul {
         margin: 0px;
     }
