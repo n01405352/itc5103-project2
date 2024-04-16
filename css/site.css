@@ -290,12 +290,25 @@
         text-align: center;
     }
 
+    /* Footer flex */
+    .wireframe1 .footercolumnwrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .wireframe1 .footercolumn {
-        float: left;
-        /* display: inline-block; */
         width: 20%;
         padding: 20px;
     }
+
+    /* .wireframe1 .footercolumn {
+        float: left;
+        display: inline-block;
+        width: 20%;
+        padding: 20px;
+    } */
 
     .wireframe1 .footercolumn ul {
         padding: 0px 0px 30px 0px;
