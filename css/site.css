@@ -821,7 +821,7 @@
         background: linear-gradient(90deg, rgba(189, 222, 242, 1) 0%, rgba(255, 255, 255, 1) 100%);
         border-radius: 20px 20px 20px 20px;
         padding: 10px 10px 10px 25px;
-        margin: 30px 10px 30px 10px;
+        margin: 50px 10px 30px 10px;
     }
 
     .locationstable th {
@@ -843,6 +843,86 @@
     }
 
     /* Locations END ********************************************************************* */
+
+    /* Newsletter START ******************************************************************* */
+
+    /* body.wireframe1 {
+        background: linear-gradient(90deg, rgba(34, 195, 99, 1) 0%, rgba(253, 216, 45, 1) 100%);
+    } */
+
+    .wireframe1 form {
+        width: 80%;
+        margin: 5vh auto 1vh auto;
+        padding: 20px;
+        background-color: beige;
+        border-radius: 7px;
+        font-size: 1rem;
+    }
+
+    .wireframe1 .title {
+        color: #0086c0;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .wireframe1 .sectiontitle {
+        color: #0f2027;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .wireframe1 input {
+        margin: 10px;
+    }
+
+    .wireframe1 select {
+        margin: 5px;
+    }
+
+    .wireframe1 button {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 25%;
+        color: white;
+        background-color: rgb(41, 57, 194);
+        border: none;
+        border-radius: 4px;
+        font-size: 1.2rem;
+    }
+
+    .wireframe1 button:hover {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 25%;
+        color: white;
+        background-color: rgb(106, 121, 255);
+        border: none;
+        border-radius: 4px;
+        font-size: 1.2rem;
+    }
+
+    .wireframe1 button:active {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 25%;
+        color: white;
+        background-color: rgb(196, 171, 33);
+        border: none;
+        border-radius: 4px;
+        font-size: 1.2rem;
+    }
+
+    .wireframe1 .inputRequirement {
+        color: red;
+    }
+
+
+
+    /* Newsletter END ********************************************************************* */
 
 }
 
@@ -1172,6 +1252,16 @@
     }
 
     /* Wireframe 1 END ******************************************************************** */
+
+
+    /* Locations START ******************************************************************** */
+
+    .locationstable img {
+        height: 50px;
+    }
+
+    /* Locations END ********************************************************************** */
+
 }
 
 
