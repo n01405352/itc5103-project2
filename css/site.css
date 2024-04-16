@@ -180,7 +180,6 @@
     /* Middle column flex */
     .wireframe1 #multicolmiddle {
         background-color: rgb(255, 222, 156);
-        /* overflow: auto; */
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -190,7 +189,6 @@
     .wireframe1 .columnmiddle {
         background-color: rgb(255, 222, 156);
         width: 25%;
-        /* float: left; */
         padding: 20px;
         margin: 20px 30px 20px 30px;
     }
@@ -217,7 +215,7 @@
         margin-top: 150px;
     }
 
-    .wireframe1 #multicolbottom {
+    /* .wireframe1 #multicolbottom {
         background-color: beige;
         overflow: auto;
     }
@@ -226,6 +224,23 @@
         background-color: beige;
         width: 47%;
         float: left;
+        margin: 20px 0px 20px 0px;
+        padding: 10px 10px 10px 30px;
+    } */
+
+    /* Bottom column flex */
+    .wireframe1 #multicolbottom {
+        background-color: beige;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .wireframe1 .columnbottom {
+        background-color: beige;
+        width: 30%;
         margin: 20px 0px 20px 0px;
         padding: 10px 10px 10px 30px;
     }
