@@ -13,18 +13,7 @@ const focusAndSelect = selector => {
 // processEntries function
 const processEntries = () => {
     // Get user's entries
-    // General Information
-    // const arrivalDate = $("#arrivalDate").value.trim();
-    // const nights = parseInt($("#nights").value.trim());
-    // const adults = parseInt($("#adults").value.trim());
-    // const children = parseInt($("#children").value.trim());
-    // Preferences
-    // const standard = $("#standard").value.trim();
-    // const business = $("#business").value.trim();
-    // const suite = $("#suite").value.trim();
-    // const king = $("#king").value.trim();
-    // const doubleDouble = $("#doubleDouble").value.trim();
-    // const smoking = $("smoking").value.trim();
+    
     // Contact Information
     const name = $("#name").value.trim();
     const email = $("#email").value.trim();
@@ -34,11 +23,6 @@ const processEntries = () => {
     // Validate user entries
     // Verify values are not empty
     let errorMessage = "";
-
-    // if (arrivalDate == "") {
-    //     errorMessage += "Arrival Date is required.\n";
-    //     focusAndSelect("#arrivalDate");
-    // }
 
     if (name == "") {
         errorMessage += "Name is required.\n";
@@ -62,18 +46,12 @@ const processEntries = () => {
         focusAndSelect("#phoneNumber");
     }
 
-    // Verify nights is numeric
-    // if (isNaN(nights).value || nights < 1) {
-    //     errorMessage += "Nights must be a number.\n";
-    //     focusAndSelect("#nights");
-    // }
-
     // Prevent submission if there's an error
     if (errorMessage != "") {
         alert(errorMessage);
         processEntries.preventDefault();
-    }
-
+    } 
+    
 };
 
 // DOMContentLoaded event handler

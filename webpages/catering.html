@@ -73,12 +73,9 @@
                     <fieldset>
                         <legend class="sectiontitle">General Information</legend>
 
-                        <label for="arrivalDate">Requested date: </label>
-                        <input type="date" id="arrivalDate" name="arrivalDate"><br>
-
-                        <!-- <label for="nights">Nights: </label>
-                        <input type="number" id="nights" name="nights" min="1" value="1">
-                        <span class="inputRequirement">Must be numeric.</span><br> -->
+                        <label for="requestedDate">Requested date: </label>
+                        <input type="date" id="requestedDate" name="requestedDate">
+                        <span class="inputRequirement">This field is required.</span><br>
 
                         <label for="adults">Adults: </label>
                         <select id="adults" name="adults">
@@ -157,7 +154,8 @@
                         <legend class="sectiontitle">Contact Information</legend>
 
                         <label for="name">Name: </label>
-                        <input type="text" id="name" name="name" size="30" placeholder="First Last"><br>
+                        <input type="text" id="name" name="name" size="30" placeholder="First Last">
+                        <span class="inputRequirement">This field is required.</span><br>
 
                         <label for="email">Email: </label>
                         <input type="text" id="email" name="email" placeholder="username@domain.com" size="30">
