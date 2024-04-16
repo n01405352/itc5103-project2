@@ -1,5 +1,5 @@
 ITC 5103 0NA
-Project 1
+Project 2
 
 Group Members:
 (Tommy) Hongyu Chu
@@ -7,3 +7,6 @@ Neil Martinez
 
 Wireframe 1: Neil
 Wireframe 2: Tommy
+
+combodetail.html Tommy
+order.html Tommy
