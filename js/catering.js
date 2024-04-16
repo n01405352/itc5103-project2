@@ -15,7 +15,6 @@ const processEntries = () => {
     // Get user's entries
     // General Information
     const arrivalDate = $("#requestedDate").value.trim();
-    // const nights = parseInt($("#nights").value.trim());
     const adults = parseInt($("#adults").value.trim());
     const children = parseInt($("#children").value.trim());
     
