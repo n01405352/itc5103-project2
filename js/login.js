@@ -15,20 +15,13 @@ const processEntries = () => {
     // Get user's entries
     
     // Contact Information
-    // const name = $("#name").value.trim();
+    
     const email = $("#email").value.trim();
     const password = $("#password").value.trim();
-    // const phoneNumber = $("#phoneNumber").value.trim();
-
-
+    
     // Validate user entries
     // Verify values are not empty
     let errorMessage = "";
-
-    // if (name == "") {
-    //     errorMessage += "Name is required.\n";
-    //     focusAndSelect("#name");
-    // }
 
     if (email == "") {
         errorMessage += "Email is required.\n";
@@ -47,10 +40,11 @@ const processEntries = () => {
         focusAndSelect("#password");
     }
 
-    // if (phoneNumber == "") {
-    //     errorMessage += "Phone number is required.\n";
-    //     focusAndSelect("#phoneNumber");
-    // }
+    // Password minimum length
+    if (password.length < 6) {
+        errorMessage += "Password must be at least 6 characters.\n";
+        focusAndSelect("#password");
+    }
 
     // Prevent submission if there's an error
     if (errorMessage != "") {
@@ -65,5 +59,5 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("The DOM is ready!");
     $("#submit").addEventListener("click", processEntries); // Submit the form
 
-    $("#email").focus(); // Move cursor to name on application start
+    $("#email").focus(); // Move cursor to email on application start
 });
