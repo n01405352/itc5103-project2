@@ -14,4 +14,5 @@ menu.html Tommy
 locations.html Neil
 newsletter.html Neil
 catering.html Neil
+rewards.html Neil
 
