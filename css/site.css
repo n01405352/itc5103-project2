@@ -789,6 +789,20 @@
 
     /* Order END ************************************************************************* */
 
+    
+    /* Combodetail START ***************************************************************** */
+
+    #combos nav a {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 30px;
+        color: #00376b;
+    }
+
+    /* Combodetail END ******************************************************************* */
+
 
     /* Locations START ******************************************************************* */
 
