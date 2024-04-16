@@ -5,8 +5,11 @@ Group Members:
 (Tommy) Hongyu Chu
 Neil Martinez
 
-Wireframe 1: Neil
+index.html (Wireframe 1): Neil
 Wireframe 2: Tommy
 
 combodetail.html Tommy
 order.html Tommy
+menu.html Tommy
+locations.html Neil
+newsletter.html Neil
