@@ -14,17 +14,11 @@ const focusAndSelect = selector => {
 const processEntries = () => {
     // Get user's entries
     // General Information
-    const arrivalDate = $("#arrivalDate").value.trim();
+    const arrivalDate = $("#requestedDate").value.trim();
     // const nights = parseInt($("#nights").value.trim());
     const adults = parseInt($("#adults").value.trim());
     const children = parseInt($("#children").value.trim());
-    // Preferences
-    // const standard = $("#standard").value.trim();
-    // const business = $("#business").value.trim();
-    // const suite = $("#suite").value.trim();
-    // const king = $("#king").value.trim();
-    // const doubleDouble = $("#doubleDouble").value.trim();
-    // const smoking = $("smoking").value.trim();
+    
     // Contact Information
     const name = $("#name").value.trim();
     const email = $("#email").value.trim();
@@ -37,7 +31,7 @@ const processEntries = () => {
 
     if (arrivalDate == "") {
         errorMessage += "Requested Date is required.\n";
-        focusAndSelect("#arrivalDate");
+        focusAndSelect("#requestedDate");
     }
 
     if (name == "") {
@@ -62,12 +56,6 @@ const processEntries = () => {
         focusAndSelect("#phoneNumber");
     }
 
-    // Verify nights is numeric
-    // if (isNaN(nights).value || nights < 1) {
-    //     errorMessage += "Nights must be a number.\n";
-    //     focusAndSelect("#nights");
-    // }
-
     // Prevent submission if there's an error
     if (errorMessage != "") {
         alert(errorMessage);
@@ -81,5 +69,5 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("The DOM is ready!");
     $("#submit").addEventListener("click", processEntries); // Submit the form
 
-    $("#arrivalDate").focus(); // Move cursor to arrivalDate on application start
+    $("#requestedDate").focus(); // Move cursor to requestedDate on application start
 });
