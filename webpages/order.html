@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewpoint" content="width=device-width,initial-scale=1">
-<title>Fast Food Ordering</title>
-<link rel="stylesheet" href="../css/order.css">
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width,initial-scale=1">
+  <title>Mr Tommy's Fast Food Ordering</title>
+
+  <link rel="icon" type="image/x-icon" href="images/Cheeseburgericon.png">
+  <!-- Source: https://commons.wikimedia.org/wiki/File:Cheeseburger1310544885.png -->
+  <link rel="stylesheet" href="../css/site.css">
 </head>
-<body>
+
+<body class="order">
+  <header></header>
+
   <nav id="top">
     <ul>
       <li><a href="../index.html">Home</a></li>
@@ -14,109 +21,114 @@
       <li><a href="combodetail.html">Combo Details</a></li>
       <li><a href="order.html">Ordering Online</a></li>
     </ul>
-</nav>
-<div class="container">
-  <h1>Online Fast Food Ordering</h1>
-  <form id="orderForm" onsubmit="return submitOrder()">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br>
-    <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890" required><br>
-    <label for="postcode">Postcode:</label>
-    <input type="text" id="postcode" name="postcode" placeholder="Format: 123 456" required><br>
-    <label for="address">Address:</label>
-    <textarea id="address" name="address" rows="4" required></textarea><br>
+  </nav>
 
-    <label for="burger">Cheeseburgers</label>
-    <select id="burger" name="burger">
-      <option value="0">None</option>
-      <option value="5.99">French Onion Cheeseburgers Single - $5.99</option>
-      <option value="6.99">French Onion Cheeseburgers Double - $6.99</option>
-      <option value="7.99">French Onion Cheeseburgers Triple - $7.99</option>
-      <option value="9.09">Baconator - $9.09</option>
-      <option value="6.89">Son Of Baconator - $6.89</option>
-      <option value="2.99">Jr.Cheeseburgers Deluxe - $2.99</option>
-    </select><br>
-    <label for="drink">Beverages</label>
-    <select id="drink" name="drink">
-      <option value="0">None</option>
-      <option value="3.59">Strawberry Lemonade - $3.59</option>
-      <option value="2.69">Coca-cola - $2.69</option>
-      <option value="2.69">Sprite - $2.69</option>
-      <option value="2.69">Nestea - $2.69</option>
-    </select><br>
-    <label for="fries">Fries & Sides</label>
-    <select id="fries" name="fries">
-      <option value="0">None</option>
-      <option value="4.09">French Fries - $4.09</option>
-      <option value="5.29">Bacon Poutine - $5.29</option>
-      <option value="2.59">Chili Cheese Fries - $2.59</option>
-      <option value="3.39">Classic Chicken Wrap - $3.39</option>
-    </select><br>
-    <label for="salad">Fresh-Made Salads</label>
-    <select id="salad" name="salad">
-      <option value="0">None</option>
-      <option value="9.49">Cobb Salad - $9.49</option>
-      <option value="9.49">Grilled Caesar Salad - $9.49</option>
-      <option value="9.49">Apple Pecan Chicken Salad - $9.49</option>
-      <option value="9.49">Taco Salad - $9.49</option>
-    </select><br>
-    <label for="quantity">Quantity:</label>
-    <input type="number" id="quantity" name="quantity" min="1" value="1">
-    <button type="submit">Place Order</button>
-    <label for="deliveryTime">Delivery Start Time:</label>
-    <input type="time" id="deliveryTime" name="deliveryTime">
-    <p>Tips: Adults and youth (ages 13 and older) need an average of 2,000 calories a day,
-       and children (ages 4 to 12) need an average of 1,500 calories a day.
-        However, individual needs vary. 
-      Calories for extra toppings are in addition to standard build. 
-      Price and participation may vary.</p>
-    
-  </form>
-  <p id="totalCost"></p>
-</div>
-<footer>
-  <div class="i33">
+  <main>
+    <div class="container">
+      <h1>Online Fast Food Ordering</h1>
+      <form id="orderForm" onsubmit="return submitOrder()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          placeholder="Format: 123-456-7890" required><br>
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode" placeholder="Format: 123 456" required><br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+
+        <label for="burger">Cheeseburgers</label>
+        <select id="burger" name="burger">
+          <option value="0">None</option>
+          <option value="5.99">French Onion Cheeseburgers Single - $5.99</option>
+          <option value="6.99">French Onion Cheeseburgers Double - $6.99</option>
+          <option value="7.99">French Onion Cheeseburgers Triple - $7.99</option>
+          <option value="9.09">Baconator - $9.09</option>
+          <option value="6.89">Son Of Baconator - $6.89</option>
+          <option value="2.99">Jr.Cheeseburgers Deluxe - $2.99</option>
+        </select><br>
+        <label for="drink">Beverages</label>
+        <select id="drink" name="drink">
+          <option value="0">None</option>
+          <option value="3.59">Strawberry Lemonade - $3.59</option>
+          <option value="2.69">Coca-cola - $2.69</option>
+          <option value="2.69">Sprite - $2.69</option>
+          <option value="2.69">Nestea - $2.69</option>
+        </select><br>
+        <label for="fries">Fries & Sides</label>
+        <select id="fries" name="fries">
+          <option value="0">None</option>
+          <option value="4.09">French Fries - $4.09</option>
+          <option value="5.29">Bacon Poutine - $5.29</option>
+          <option value="2.59">Chili Cheese Fries - $2.59</option>
+          <option value="3.39">Classic Chicken Wrap - $3.39</option>
+        </select><br>
+        <label for="salad">Fresh-Made Salads</label>
+        <select id="salad" name="salad">
+          <option value="0">None</option>
+          <option value="9.49">Cobb Salad - $9.49</option>
+          <option value="9.49">Grilled Caesar Salad - $9.49</option>
+          <option value="9.49">Apple Pecan Chicken Salad - $9.49</option>
+          <option value="9.49">Taco Salad - $9.49</option>
+        </select><br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+        <button type="submit">Place Order</button>
+        <label for="deliveryTime">Delivery Start Time:</label>
+        <input type="time" id="deliveryTime" name="deliveryTime">
+        <p>Tips: Adults and youth (ages 13 and older) need an average of 2,000 calories a day,
+          and children (ages 4 to 12) need an average of 1,500 calories a day.
+          However, individual needs vary.
+          Calories for extra toppings are in addition to standard build.
+          Price and participation may vary.</p>
+
+      </form>
+      <p id="totalCost"></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="i33">
       <h3>Restaurant hours</h3>
       <p>From Monday to Sunday <br>Open 24 Hours</p>
       <p>Breakfast ends at 10:00 AM Today</p>
       <p>Holiday Hours May Vary</p>
-  </div>
-  <div class="i33">
+    </div>
+    <div class="i33">
       <h3>Contact</h3>
       <p>6301 Silver Dart Dr<br>
-          Unit G 202, Terminal 3<br>
-          Mississauga, ON L5P 1B2<br></p>
+        Unit G 202, Terminal 3<br>
+        Mississauga, ON L5P 1B2<br></p>
       <p>phone: <a href="tel:905-761-8848">905-761-8848</a></p>
-  </div>
-  <div class="i33">
+    </div>
+    <div class="i33">
       <h3>At This Location</h3>
       <ul>
-          <li>Breakfast</li>
-          <li>Mobile Ordering</li>
-          <li>Mobile Payment</li>
-          <li>Wi-Fi</li>
+        <li>Breakfast</li>
+        <li>Mobile Ordering</li>
+        <li>Mobile Payment</li>
+        <li>Wi-Fi</li>
       </ul>
-  </div>
-  
-  <div class="i33">
+    </div>
+
+    <div class="i33">
       <h3>Quick Links</h3>
       <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="combodetail.html">Combo Details</a></li>
-            <li><a href="order.html">Ordering Online</a></li>
-            
-          </ul>
-      </nav>
-  </div>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="combodetail.html">Combo Details</a></li>
+          <li><a href="order.html">Ordering Online</a></li>
 
-  
-</footer>
-<script src="../js/order.js"></script>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../js/order.js"></script>
 
 </body>
+
 </html>
