@@ -16,3 +16,4 @@ newsletter.html Neil
 catering.html Neil
 rewards.html Neil
 
+I  improve the webpage I made in order to displaying same nav . TOMMY
