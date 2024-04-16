@@ -11,21 +11,25 @@
   <link rel="stylesheet" href="../css/site.css">
 </head>
 
-<body class="order">
-  <header></header>
+<body class="wireframe1" id="order">
+  <header> <h1>Online Fast Food Ordering</h1></header>
 
-  <nav id="top">
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a href="combodetail.html">Combo Details</a></li>
-      <li><a href="order.html">Ordering Online</a></li>
+  <nav>
+    <ul class="navwrapper">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="combodetail.html">COMBOS</a></li>
+        <li class="currentwebpage"><a href="order.html">ORDER</a></li>
+        <li><a href="locations.html">LOCATIONS</a></li>
+        <li><a href="rewards.html">REWARDS & DEALS</a></li>
+        <li><a href="catering.html">CATERING</a></li>
+        <li><a href="newsletter.html">NEWSLETTER</a></li>
     </ul>
-  </nav>
+</nav>
 
   <main>
     <div class="container">
-      <h1>Online Fast Food Ordering</h1>
+     
       <form id="orderForm" onsubmit="return submitOrder()">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br>
@@ -90,42 +94,51 @@
   </main>
 
   <footer>
-    <div class="i33">
-      <h3>Restaurant hours</h3>
-      <p>From Monday to Sunday <br>Open 24 Hours</p>
-      <p>Breakfast ends at 10:00 AM Today</p>
-      <p>Holiday Hours May Vary</p>
-    </div>
-    <div class="i33">
-      <h3>Contact</h3>
-      <p>6301 Silver Dart Dr<br>
-        Unit G 202, Terminal 3<br>
-        Mississauga, ON L5P 1B2<br></p>
-      <p>phone: <a href="tel:905-761-8848">905-761-8848</a></p>
-    </div>
-    <div class="i33">
-      <h3>At This Location</h3>
-      <ul>
-        <li>Breakfast</li>
-        <li>Mobile Ordering</li>
-        <li>Mobile Payment</li>
-        <li>Wi-Fi</li>
-      </ul>
-    </div>
+    <div class="footercolumnwrapper">
+        <div class="footercolumn">
+            <h3>Restaurant hours</h3>
+            <p>From Monday to Sunday <br>Open 24 Hours</p>
+            <p>Breakfast ends at 10:00 AM Today</p>
+            <p>Holiday Hours May Vary</p>
+        </div>
+        <div class="footercolumn">
+            <h3>Contact</h3>
+            <p>6301 Silver Dart Dr<br>
+                Unit G 202, Terminal 3<br>
+                Mississauga, ON L5P 1B2<br></p>
+            <p>Phone: <a href="tel:905-761-8848">905-761-8848</a></p>
+        </div>
+        <div class="footercolumn">
+            <h3>At This Location</h3>
+            <ul>
+                <li>Breakfast</li>
+                <li>Mobile Ordering</li>
+                <li>Mobile Payment</li>
+                <li>Wi-Fi</li>
+            </ul>
+        </div>
+        <div class="footercolumn">
+            <h3>Quick Links</h3>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="combodetail.html">COMBOS</a></li>
+                    <li  class="currentwebpage"><a href="order.html">ORDER</a></li>
+                    <li><a href="locations.html">LOCATIONS</a></li>
+                    <li><a href="rewards.html">REWARDS & DEALS</a></li>
+                    <li><a href="catering.html">CATERING</a></li>
+                    <li><a href="newsletter.html">NEWSLETTER</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> <!-- End footercolumnwrapper -->
 
-    <div class="i33">
-      <h3>Quick Links</h3>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="combodetail.html">Combo Details</a></li>
-          <li><a href="order.html">Ordering Online</a></li>
+    <p id="copyright">
+        Copyright &copy; 2024
+    </p>
+</footer>
 
-        </ul>
-      </nav>
-    </div>
-  </footer>
 
   <script src="../js/order.js"></script>
 
