@@ -18,7 +18,7 @@
 
     /* Nav flex */
     .wireframe1 .navwrapper {
-        display:flex;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -164,17 +164,42 @@
         margin-top: 170px;
     }
 
-    .wireframe1 #multicolmiddle {
+    /* .wireframe1 #multicolmiddle {
         background-color: rgb(255, 222, 156);
         overflow: auto;
-    }
+    } */
 
-    .wireframe1 .columnmiddle {
+    /* .wireframe1 .columnmiddle {
         background-color: rgb(255, 222, 156);
         width: 26%;
         float: left;
         padding: 20px;
         margin: 20px 30px 20px 30px;
+    } */
+
+    /* Middle column flex */
+    .wireframe1 #multicolmiddle {
+        background-color: rgb(255, 222, 156);
+        /* overflow: auto; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wireframe1 .columnmiddle {
+        background-color: rgb(255, 222, 156);
+        width: 25%;
+        /* float: left; */
+        padding: 20px;
+        margin: 20px 30px 20px 30px;
+    }
+
+    .wireframe1 .columnmiddle:hover {
+        background-color: rgb(255, 231, 183);
+        box-shadow: 1px 0px 11px 6px rgba(138, 200, 255, 0.62);
+        -webkit-box-shadow: 1px 0px 11px 6px rgba(138, 200, 255, 0.62);
+        -moz-box-shadow: 1px 0px 11px 6px rgba(138, 200, 255, 0.62);
     }
 
     .wireframe1 .columnmiddle img {
