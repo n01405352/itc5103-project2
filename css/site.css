@@ -821,7 +821,7 @@
         background: linear-gradient(90deg, rgba(189, 222, 242, 1) 0%, rgba(255, 255, 255, 1) 100%);
         border-radius: 20px 20px 20px 20px;
         padding: 10px 10px 10px 25px;
-        margin: 30px 10px 30px 10px;
+        margin: 50px 10px 30px 10px;
     }
 
     .locationstable th {
